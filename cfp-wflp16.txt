@@ -1,0 +1,72 @@
+24th International Workshop on
+Functional and (Constraint) Logic Programming (WFLP 2016)
+
+https://wflp2016.github.io/
+
+September 13-14, part of the
+Leipzig Week of Declarative Programming (L-DEC 2016)
+
+***********************************************************
+
+Deadlines:
+
+* abstract submission: June 15, 2016
+* paper submission: June 22, 2016
+* notification: July 15, 2016
+* final version due: August 10, 2016
+
+***********************************************************
+
+The international workshops on functional and (constraint) logic
+programming aim at bringing together researchers, students, and
+practitioners interested in functional programming, logic programming,
+and their integration. This year the workshop is co-located with two
+other events as part of http://nfa.imn.htwk-leipzig.de/LDEC2016/
+in order to promote the cross-fertilizing exchange of ideas and
+experiences among and between the communities interested in the
+foundations, applications, and combinations of high-level,
+declarative programming languages and related areas.
+
+Topics of interest for WFLP include (but are not limited to):
+
+* Functional programming
+* Logic programming
+* Constraint programming
+* Deductive databases, data mining
+* Extensions of declarative languages, objects
+* Multi-paradigm declarative programming
+* Foundations, semantics, nonmonotonic reasoning, dynamics
+* Parallelism, concurrency
+* Program analysis, abstract interpretation
+* Program transformation, partial evaluation, meta-programming
+* Specification, verification, declarative debugging
+* Knowledge representation, machine learning
+* Interaction of declarative programming with other formalisms
+* Implementation of declarative languages
+* Advanced programming environments and tools
+* Software engineering for declarative programming
+* Applications
+
+The primary focus is on new and original research results, but
+submissions describing innovative products, prototypes under
+development, application systems, or interesting experiments
+(e.g., benchmarks) are also encouraged.
+
+There are separate submission categories for work-in-progress reports
+and system descriptions.
+
+The workshop proceedings will be published in CEUR or EPTCS.
+
+***********************************************************
+
+Program Committee:
+
+* Slim Abdennadher, German University in Cairo, Egypt
+* Sergio Antoy, Portland State University, USA
+* Sebastian Fischer, Freelancer, Germany
+* Francisco J. Lopez Fraguas, Universidad Complutense de Madrid, Spain
+* Michael Hanus, University of Kiel, Germany
+* Sebastiaan Joosten, University of Innsbruck, Austria
+* Kazutaka Matsuda, Tohoku University, Japan
+* Martin Sulzmann, Karlsruhe University of Applied Sciences, Germany
+* Janis Voigtlaender (Chair), University of Bonn, Germany
