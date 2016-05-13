@@ -53,7 +53,9 @@ development, application systems, or interesting experiments
 (e.g., benchmarks) are also encouraged.
 
 There are separate submission categories for work-in-progress reports
-and system descriptions.
+and system descriptions. Authors are welcome to indicate that they
+want to present their work in a talk but not include a paper in the
+proceedings.
 
 The workshop proceedings will be published in CEUR or EPTCS.
 
