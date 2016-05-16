@@ -57,6 +57,9 @@ and system descriptions. Authors are welcome to indicate that they
 want to present their work in a talk but not include a paper in the
 proceedings.
 
+Submission is via EasyChair at
+https://easychair.org/conferences/?conf=wflp2016
+
 The workshop proceedings will be published in CEUR or EPTCS.
 
 ***********************************************************
