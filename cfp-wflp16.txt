@@ -65,11 +65,11 @@ formal proceedings.
 Submission is via EasyChair at
 https://easychair.org/conferences/?conf=wflp2016
 
-More details about submission format, LaTeX style etc., can be found
-on the web page: https://wflp2016.github.io/
-
 The formal proceedings will be published in EPTCS:
 http://www.eptcs.org/
+
+More details about submission format, LaTeX style etc., can be found
+on the web page: https://wflp2016.github.io/
 
 ***********************************************************
 
