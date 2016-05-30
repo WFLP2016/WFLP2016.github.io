@@ -13,7 +13,12 @@ Deadlines:
 * abstract submission: June 15, 2016
 * paper submission: June 22, 2016
 * notification: July 15, 2016
-* final version due: August 10, 2016
+* camera-ready (workshop) version due: August 10, 2016
+
+Papers can be directly accepted for publication in the formal EPTCS
+proceedings, or accepted for presentation at the workshop and invited
+to another round of reviewing after revision. More details on the web
+page.
 
 ***********************************************************
 
@@ -55,7 +60,7 @@ development, application systems, or interesting experiments
 There are separate submission categories for work-in-progress reports
 and system descriptions. Authors are welcome to indicate that they
 want to present their work in a talk but not include a paper in the
-proceedings.
+formal proceedings.
 
 Submission is via EasyChair at
 https://easychair.org/conferences/?conf=wflp2016
@@ -63,7 +68,7 @@ https://easychair.org/conferences/?conf=wflp2016
 More details about submission format, LaTeX style etc., can be found
 on the web page: https://wflp2016.github.io/
 
-The workshop proceedings will be published in EPTCS:
+The formal proceedings will be published in EPTCS:
 http://www.eptcs.org/
 
 ***********************************************************
