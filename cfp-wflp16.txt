@@ -60,7 +60,11 @@ proceedings.
 Submission is via EasyChair at
 https://easychair.org/conferences/?conf=wflp2016
 
-The workshop proceedings will be published in CEUR or EPTCS.
+More details about submission format, LaTeX style etc., can be found
+on the web page: https://wflp2016.github.io/
+
+The workshop proceedings will be published in EPTCS:
+http://www.eptcs.org/
 
 ***********************************************************
 
