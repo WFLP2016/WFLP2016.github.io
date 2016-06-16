@@ -10,8 +10,8 @@ Leipzig Week of Declarative Programming (L-DEC 2016)
 
 Deadlines:
 
-* abstract submission: June 15, 2016
-* paper submission: June 22, 2016
+* abstract submission: June 22, 2016 (extended)
+* paper submission: June 29, 2016 (extended)
 * notification: July 15, 2016
 * camera-ready (workshop) version due: August 10, 2016
 
