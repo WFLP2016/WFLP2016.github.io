@@ -6,6 +6,14 @@ https://wflp2016.github.io/
 September 13-14, part of the
 Leipzig Week of Declarative Programming (L-DEC 2016)
 
+The deadlines have been extended by a week, but are nearing soon.
+
+We will have proceedings published by EPTCS (http://www.eptcs.org/).
+
+Both full technical papers and less formal work-in-progress reports
+are welcome, as are system descriptions. More details below and on
+the web page.
+
 ***********************************************************
 
 Deadlines:
@@ -15,10 +23,9 @@ Deadlines:
 * notification: July 15, 2016
 * camera-ready (workshop) version due: August 10, 2016
 
-Papers can be directly accepted for publication in the formal EPTCS
-proceedings, or accepted for presentation at the workshop and invited
-to another round of reviewing after revision. More details on the web
-page.
+Submissions can be directly accepted for publication in the formal
+EPTCS proceedings, or accepted for presentation at the workshop and
+invited to another round of reviewing after revision.
 
 ***********************************************************
 
