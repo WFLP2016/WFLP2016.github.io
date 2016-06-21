@@ -8,11 +8,11 @@ Leipzig Week of Declarative Programming (L-DEC 2016)
 
 The deadlines have been extended by a week, but are nearing soon.
 
-We will have proceedings published by EPTCS (http://www.eptcs.org/).
+Formal proceedings will be published by EPTCS (http://www.eptcs.org/).
 
-Both full technical papers and less formal work-in-progress reports
-are welcome, as are system descriptions. More details below and on
-the web page.
+Both full technical papers and less formal work-in-progress report
+submissions are welcome, as are system descriptions. More details
+below and on the web page.
 
 ***********************************************************
 
