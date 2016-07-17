@@ -7,5 +7,245 @@
 <script>window['ec:pageId']='4828311993964363776'</script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <script>if(self != top) {top.location = self.location} else {document.documentElement.style.display = "block"}</script><script>if(self != top) {top.location = self.location}</script></head>
-<body><h1>WFLP 2016 Accepted Papers with Abstracts</h1><style>.accepted {clear:right;margin-bottom:20pt;padding:3pt}</style><style>.abstract {border-left: solid black 1px;border-right: solid black 1px;border-top: solid black 1px;padding:3pt}</style><style>.paper {border-left: solid black 1px;border-right: solid black 1px;border-top: solid black 1px;padding:2pt}</style><style>.abstract:last-child {border-bottom: solid black 1px;padding:3pt}</style><style>.paper:last-child {border-bottom: solid black 1px;padding:2pt}</style><div class="paper"><span class="authors"><span><a href="http://www.informatik.uni-kiel.de/~mh/">Michael Hanus</a> and Julia Krone</span>. </span><span class="title">A Typeful Integration of SQL into Curry</span></div><div class="abstract"><b>Abstract: </b>We present an extension of the declarative programming language<br/>Curry to support the access to data stored in relational<br/>databases via SQL.  Since Curry is statically typed, our emphasis<br/>on this SQL-integration is on type safety, i.e., our extension<br/>respects the type system of Curry so that run-time errors due to<br/>ill-typed data are avoided.  This is obtained by preprocessing<br/>SQL queries at compile time and translating them into type-safe<br/>database access operations.  As a consequence, the type checker<br/>of the Curry system can spot type errors in SQL queries at<br/>compile time.  To generate appropriately typed access operations,<br/>the preprocessor uses an entity-relationship (ER) model<br/>describing the structure of the relational data.  In addition to<br/>standard SQL, the SQL queries occurring in a Curry program can<br/>include program expressions and also relationships specified in<br/>the ER model.  The latter feature is useful to avoid the<br/>error-prone use of foreign keys in SQL queries.  As a result, our<br/>SQL integration supports a high-level and type-safe access to<br/>databases in Curry programs.</div><div class="paper"><span class="authors"><span><a href="http://www.morse.uma.es/user/18">Maria Del Mar Gallardo</a>, <a href="http://morse.uma.es/user/7">Leticia Lavado</a> and <a href="http://www.morse.uma.es/user/20">Laura Panizo</a></span>. </span><span class="title">A Simulation tool for tccp programs</span></div><div class="abstract"><b>Abstract: </b>The Timed Concurrent Constraint Language tccp is a declarative synchronous concurrent language, particularly suitable for modelling reactive systems. In tccp, agents communicate and synchronise through a global constraint store. It supports a notion of discrete time that allows all non-blocked agents to proceed with their execution simultaneously.<br/>In this paper, we present an abstract machine-based architecture for the simulation of tccp programs. The abstract machine has three main components. First, the instructions and memory model needed to represent the active agents and the state of the store during the execution. Second, the agent interpreter that executes the instructions of the current agent iteratively and calculates the new agents to be executed at the next time instant. Finally, the constraint solver components which are the modules that deal with the constraints.<br/>In this paper, we describe the implementation of these components and present examples of real systems modelled in tccp.</div><div class="paper"><span class="authors"><span><a href="http://www.tu-ilmenau.de/psc">Baltasar Trancón Y Widemann</a> and <a href="http://markuslepper.eu">Markus Lepper</a></span>. </span><span class="title">A Practical Study of Control in Objected-Oriented--Functional--Logic Programming with Paisley</span></div><div class="abstract"><b>Abstract: </b>Paisley is an extensible lightweight embedded domain-specific language for nondeterministic pattern matching in Java.  Using simple APIs and programming idioms, it brings the power of functional--logic processing of arbitrary data objects to the Java platform, without constraining the underlying object-oriented semantics.  Here we present an extension to the Paisley framework that adds pattern-based control flow.  It exploits recent additions to the Java language, namely functional interfaces and lambda expressions, for an explicit and transparent continuation-passing style approach to control.  We evaluate the practical impact of the novel features on a real-world case study that reengineers a third-party open-source project to use Paisley in place of conventional object-oriented data query idioms.  We find the approach viable for incremental refactoring of legacy code, with significant qualitative improvements regarding separation of concerns, clarity and intentionality, thus making for easier code understanding, testing and debugging.</div><div class="paper"><span class="authors"><span>Steven Kutsch and <a href="http://www.fernuni-hagen.de/pi8">Christoph Beierle</a></span>. </span><span class="title">Using Haskell for a Declarative Implementation of System Z Inference</span></div><div class="abstract"><b>Abstract: </b>Qualitative conditionals of the form "if A, then usually B" are a powerful means in knowledge representation, establishing a plausible relationship between A and B. When reasoning based on conditional knowledge consisting of a set of conditionals, a rich structure going beyond classical logic is required, e. g. ranking functions that assign a degree of implausibility to each possible world. System Z is a popular approach, using a unique partitioning of the knowledge base to generate the pareto-minimal ranking function. This ranking function is used to answer questions plausibly based on the conditionals in the knowledge base. In this paper, we describe a Haskell implementation of system Z. To keep the Haskell code as close as possible to the formal definition of System Z, we make extensive use of language features such as list comprehension and higher order functions. For example, these are used to generate the required partition of the knowledge base or to represent the induced ranking function. The described system is used as a backend in the conditional reasoning tool InfOCF.</div><div class="paper"><span class="authors"><span><a href="http://maude.sip.ucm.es/~adrian/">Adrian Riesco</a> and Gorka Suárez-García</span>. </span><span class="title">Selene: A Generic Framework for Model Checking Concurrent Programs from Their Semantics in Maude</span></div><div class="abstract"><b>Abstract: </b>Model checking is an automatic technique for verifying whether some properties hold in a concurrent system. Maude is a high-performance logical framework where other systems can be easily specified, executed, and analyzed. Moreover, Maude includes a model checker for checking properties expressed in Linear Temporal Logic. However, when a property on a program written in a programming language specified in Maude does not hold the counterexample generated by this system refers to the Maude semantics, which can be difficult to follow.<br/><br/>In this paper we present Selene, a generic framework for dealing with asynchronous concurrent systems that allows users to manipulate the counterexample generated by the Maude model checker to relate it to the program being analyzed. This is achieved by providing a kernel for dealing with messages and memory, which are later handled in the counterexample; the user can specify the details of his semantics on top of this kernel.</div><div class="paper"><span class="authors"><span><a href="http://www.cs.pdx.edu/~antoy/">Sergio Antoy</a>, <a href="http://www.informatik.uni-kiel.de/~mh/">Michael Hanus</a> and Steven Libby</span>. </span><span class="title">Proving Non-Deterministic Computations in Agda</span></div><div class="abstract"><b>Abstract: </b>We investigate proving properties of Curry programs using the Agda language and compiler. First, we address the functional correctness of Curry functions that, apart from some syntactic and semantic differences, are in the intersection of the two languages. Second, we model in Agda Curry non-deterministic functions with two distinct and competitive approaches that somewhat make the function deterministic. The first approach eliminates non-determinism by considering the set of all non-deterministic values produced by an application. The second approach encodes in an application every non-deterministic choice that the application could execute. We consider our initial experiment a success. Although proving properties of programs is a notoriously difficult task,  the functional logic paradigm does not seem to add any significant layer of difficulty or complexity to the task.</div><div class="paper"><span class="authors"><span>José María Rey Poza and <a href="http://lml.ls.fi.upm.es/~xmc">Julio Mariño</a></span>. </span><span class="title">Extending Curry with Arrays</span></div><div class="abstract"><b>Abstract: </b>Arrays are very common artifacts of imperative programming: they<br/>provide a highly structured space to store information, their<br/>management is straightforward and, above all, any of their positions<br/>can be accessed in a short, constant time.<br/>However, none of the proposals for their inclusion into functional and<br/>logic programming has gained mainstream attention, maybe because arrays<br/>are naturally related to iterative control, which is missing in most<br/>declarative languages and because of the close association between<br/>arrays and destructive assignment. Without destructive assignment,<br/>arrays are reduced to read-only structures, which limits their power.<br/>We present a proposal to extend the functional logic<br/>language Curry with arrays in a natural manner.<br/>We propose two types of arrays:<br/>easy-to-use logic variable arrays with limited assignment capabilities<br/>and, also, more complex monadic arrays that provide full<br/>destructive assignment. Each type presents a balance between<br/>usability and power while maintaining declarativeness at all times. It is<br/>up to the programmer to choose the type that best suits his/her<br/>needs. We have implemented both array types in our Curry compiler<br/>(Sloth). This work includes a description of that implementation.</div><div class="paper"><span class="authors"><a href="http://uni-marburg.de">Lukas Immanuel Schiller</a>. </span><span class="title">An Agglomeration Law for Sorting Networks and its Application in Functional Programming</span></div><div class="abstract"><b>Abstract: </b>In this paper we will present a general agglomeration law for sorting networks. Agglomeration is a common technique when designing parallel programs to control the granularity of the computation and thereby finding a better fit between the algorithm and the machine on which the algorithm runs. Usually this is done by grouping smaller tasks and computing them en bloc within one parallel process. In the case of sorting networks this could be done by computing bigger parts of the networks with one process. The agglomeration law in this paper pursues a different strategy: the input data is grouped and the algorithm is generalized to work on the agglomerated input while the original structure of the algorithm remains. This will result in a new access opportunity to sorting networks well suited for efficient parallelization on modern multicore computers, computer networks or GPGPU programming. Additionally this enables us to use sorting networks as (parallel or distributed) merging stages for arbitrary sorting algorithms and thereby combining new hybrid sorting algorithms with ease. The expressiveness of functional programming languages helps us to apply this law to systematically constructed sorting networks leading to efficient and easily adaptable sorting algorithms. An<br/>application example is given, showing the effectiveness of this law.</div><div class="paper"><span class="authors"><span><a href="http://hemann.pl">Jason Hemann</a> and <a href="https://www.cs.indiana.edu/~dfried/">Daniel Friedman</a></span>. </span><span class="title">A Framework for Extending microKanren with Constraints</span></div><div class="abstract"><b>Abstract: </b>We describe an extensible constraints framework in microKanren, a<br/>logic EDSL hosted in Racket and more than 25 other languages. Here<br/>we rely on an untyped, functional host language's macro system to<br/>embed our constraint architecture, and constraint specifications<br/>expressed as predicates generate a microKanren language extended<br/>with constraints. Our framework allows an order of magnitude<br/>decrease in LOC over our previous language<br/>implementations. Constraint microKanren serves as a teachable CLP<br/>shell for constraint programming over binary trees as well as a<br/>testbed and prototyping tool for constraint systems.<br/></div></body>
+<body><h1>WFLP 2016 Accepted Papers with Abstracts</h1><style>.accepted {clear:right;margin-bottom:20pt;padding:3pt}</style><style>.abstract {border-left: solid black 1px;border-right: solid black 1px;border-top: solid black 1px;padding:3pt}</style><style>.paper {border-left: solid black 1px;border-right: solid black 1px;border-top: solid black 1px;padding:2pt}</style><style>.abstract:last-child {border-bottom: solid black 1px;padding:3pt}</style><style>.paper:last-child {border-bottom: solid black 1px;padding:2pt}</style>
+<div class="paper">
+  <span class="title"><b>A Typeful Integration of SQL into Curry</b></span>
+  </br>
+  <span class="authors">
+    <span><a href="http://www.informatik.uni-kiel.de/~mh/">Michael Hanus</a> and Julia Krone</span>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  We present an extension of the declarative programming language
+  Curry to support the access to data stored in relational databases
+  via SQL. Since Curry is statically typed, our emphasis on this
+  SQL-integration is on type safety, i.e., our extension respects the
+  type system of Curry so that run-time errors due to ill-typed data
+  are avoided. This is obtained by preprocessing SQL queries at
+  compile time and translating them into type-safe database access
+  operations. As a consequence, the type checker of the Curry system
+  can spot type errors in SQL queries at compile time. To generate
+  appropriately typed access operations, the preprocessor uses an
+  entity-relationship (ER) model describing the structure of the
+  relational data. In addition to standard SQL, the SQL queries
+  occurring in a Curry program can include program expressions and
+  also relationships specified in the ER model. The latter feature is
+  useful to avoid the error-prone use of foreign keys in SQL queries.
+  As a result, our SQL integration supports a high-level and type-safe
+  access to databases in Curry programs.
+</div>
+<div class="paper">
+  <span class="title"><b>A Simulation tool for tccp programs</b></span>
+  </br>
+  <span class="authors"><span>
+      <a href="http://www.morse.uma.es/user/18">Maria Del Mar Gallardo</a>, <a href="http://morse.uma.es/user/7">Leticia Lavado</a> and <a href="http://www.morse.uma.es/user/20">Laura Panizo</a></span>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  The Timed Concurrent Constraint Language tccp is a declarative
+  synchronous concurrent language, particularly suitable for modelling
+  reactive systems. In tccp, agents communicate and synchronise
+  through a global constraint store. It supports a notion of discrete
+  time that allows all non-blocked agents to proceed with their
+  execution simultaneously.</br>
+  In this paper, we present an abstract machine-based architecture for
+  the simulation of tccp programs. The abstract machine has three main
+  components. First, the instructions and memory model needed to
+  represent the active agents and the state of the store during the
+  execution. Second, the agent interpreter that executes the
+  instructions of the current agent iteratively and calculates the new
+  agents to be executed at the next time instant. Finally, the
+  constraint solver components which are the modules that deal with
+  the constraints.</br>
+  In this paper, we describe the implementation of these components
+  and present examples of real systems modelled in tccp.
+</div>
+<div class="paper">
+  <span class="title"><b>A Practical Study of Control in Objected-Oriented--Functional--Logic Programming with Paisley</b></span>
+  </br>
+  <span class="authors">
+    <span><a href="http://www.tu-ilmenau.de/psc">Baltasar Trancón Y Widemann</a> and <a href="http://markuslepper.eu">Markus Lepper</a></span>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  Paisley is an extensible lightweight embedded domain-specific
+  language for nondeterministic pattern matching in Java. Using simple
+  APIs and programming idioms, it brings the power of functional-logic
+  processing of arbitrary data objects to the Java platform, without
+  constraining the underlying object-oriented semantics. Here we
+  present an extension to the Paisley framework that adds
+  pattern-based control flow. It exploits recent additions to the Java
+  language, namely functional interfaces and lambda expressions, for
+  an explicit and transparent continuation-passing style approach to
+  control. We evaluate the practical impact of the novel features on a
+  real-world case study that reengineers a third-party open-source
+  project to use Paisley in place of conventional object-oriented data
+  query idioms. We find the approach viable for incremental
+  refactoring of legacy code, with significant qualitative
+  improvements regarding separation of concerns, clarity and
+  intentionality, thus making for easier code understanding, testing
+  and debugging.
+</div>
+<div class="paper">
+  <span class="title"><b>Using Haskell for a Declarative Implementation of System Z Inference</b></span>
+  </br>
+  <span class="authors">
+    <span>Steven Kutsch and <a href="http://www.fernuni-hagen.de/pi8">Christoph Beierle</a></span>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  Qualitative conditionals of the form "if A, then usually B" are a
+  powerful means in knowledge representation, establishing a plausible
+  relationship between A and B. When reasoning based on conditional
+  knowledge consisting of a set of conditionals, a rich structure
+  going beyond classical logic is required, e.g. ranking functions
+  that assign a degree of implausibility to each possible
+  world. System Z is a popular approach, using a unique partitioning
+  of the knowledge base to generate the pareto-minimal ranking
+  function. This ranking function is used to answer questions
+  plausibly based on the conditionals in the knowledge base. In this
+  paper, we describe a Haskell implementation of system Z. To keep the
+  Haskell code as close as possible to the formal definition of System
+  Z, we make extensive use of language features such as list
+  comprehension and higher order functions. For example, these are
+  used to generate the required partition of the knowledge base or to
+  represent the induced ranking function. The described system is used
+  as a backend in the conditional reasoning tool InfOCF.
+</div>
+<div class="paper">
+  <span class="title"><b>Selene: A Generic Framework for Model Checking Concurrent Programs from Their Semantics in Maude</b></span>
+  </br>
+  <span class="authors">
+    <span><a href="http://maude.sip.ucm.es/~adrian/">Adrian Riesco</a> and Gorka Suárez-García</span>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  Model checking is an automatic technique for verifying whether some
+  properties hold in a concurrent system. Maude is a high-performance
+  logical framework where other systems can be easily specified,
+  executed, and analyzed. Moreover, Maude includes a model checker for
+  checking properties expressed in Linear Temporal Logic. However,
+  when a property on a program written in a programming language
+  specified in Maude does not hold the counterexample generated by
+  this system refers to the Maude semantics, which can be difficult to
+  follow.</br>
+  In this paper we present Selene, a generic framework for dealing
+  with asynchronous concurrent systems that allows users to manipulate
+  the counterexample generated by the Maude model checker to relate it
+  to the program being analyzed. This is achieved by providing a
+  kernel for dealing with messages and memory, which are later handled
+  in the counterexample; the user can specify the details of his
+  semantics on top of this kernel.
+</div>
+<div class="paper">
+  <span class="title"><b>Proving Non-Deterministic Computations in Agda</b></span>
+  </br>
+  <span class="authors">
+    <span><a href="http://www.cs.pdx.edu/~antoy/">Sergio Antoy</a>, <a href="http://www.informatik.uni-kiel.de/~mh/">Michael Hanus</a> and Steven Libby</span>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  We investigate proving properties of Curry programs using the Agda
+  language and compiler. First, we address the functional correctness
+  of Curry functions that, apart from some syntactic and semantic
+  differences, are in the intersection of the two languages. Second,
+  we model in Agda Curry non-deterministic functions with two distinct
+  and competitive approaches that somewhat make the function
+  deterministic. The first approach eliminates non-determinism by
+  considering the set of all non-deterministic values produced by an
+  application. The second approach encodes in an application every
+  non-deterministic choice that the application could execute. We
+  consider our initial experiment a success. Although proving
+  properties of programs is a notoriously difficult task, the
+  functional logic paradigm does not seem to add any significant layer
+  of difficulty or complexity to the task.
+</div>
+<div class="paper">
+  <span class="title"><b>Extending Curry with Arrays</b></span>
+  </br>
+  <span class="authors">
+    <span>José María Rey Poza and <a href="http://lml.ls.fi.upm.es/~xmc">Julio Mariño</a></span>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  Arrays are very common artifacts of imperative programming: they
+  provide a highly structured space to store information, their
+  management is straightforward and, above all, any of their positions
+  can be accessed in a short, constant time.</br>
+  However, none of the proposals for their inclusion into functional
+  and logic programming has gained mainstream attention, maybe because
+  arrays are naturally related to iterative control, which is missing
+  in most declarative languages and because of the close association
+  between arrays and destructive assignment. Without destructive
+  assignment, arrays are reduced to read-only structures, which limits
+  their power. We present a proposal to extend the functional logic
+  language Curry with arrays in a natural manner.</br>
+  We propose two types of arrays: easy-to-use logic variable arrays
+  with limited assignment capabilities and, also, more complex monadic
+  arrays that provide full destructive assignment. Each type presents
+  a balance between usability and power while maintaining
+  declarativeness at all times. It is up to the programmer to choose
+  the type that best suits his/her needs. We have implemented both
+  array types in our Curry compiler (Sloth). This work includes a
+  description of that implementation.
+</div>
+<div class="paper">
+  <span class="title"><b>An Agglomeration Law for Sorting Networks and its Application in Functional Programming</b></span>
+  </br>
+  <span class="authors">
+    <a href="http://uni-marburg.de">Lukas Immanuel Schiller</a>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  In this paper we will present a general agglomeration law for
+  sorting networks. Agglomeration is a common technique when designing
+  parallel programs to control the granularity of the computation and
+  thereby finding a better fit between the algorithm and the machine
+  on which the algorithm runs. Usually this is done by grouping
+  smaller tasks and computing them en bloc within one parallel
+  process. In the case of sorting networks this could be done by
+  computing bigger parts of the networks with one process. The
+  agglomeration law in this paper pursues a different strategy: the
+  input data is grouped and the algorithm is generalized to work on
+  the agglomerated input while the original structure of the algorithm
+  remains. This will result in a new access opportunity to sorting
+  networks well suited for efficient parallelization on modern
+  multicore computers, computer networks or GPGPU
+  programming. Additionally this enables us to use sorting networks as
+  (parallel or distributed) merging stages for arbitrary sorting
+  algorithms and thereby combining new hybrid sorting algorithms with
+  ease. The expressiveness of functional programming languages helps
+  us to apply this law to systematically constructed sorting networks
+  leading to efficient and easily adaptable sorting algorithms. An
+  application example is given, showing the effectiveness of this law.
+</div>
+<div class="paper">
+  <span class="title"><b>A Framework for Extending microKanren with Constraints</b></span>
+  </br>
+  <span class="authors">
+    <span><a href="http://hemann.pl">Jason Hemann</a> and <a href="https://www.cs.indiana.edu/~dfried/">Daniel Friedman</a></span>
+  </span>
+</div>
+<div class="abstract">
+  <b>Abstract:</b></br>
+  We describe an extensible constraints framework in microKanren, a
+  logic EDSL hosted in Racket and more than 25 other languages. Here
+  we rely on an untyped, functional host language's macro system to
+  embed our constraint architecture, and constraint specifications
+  expressed as predicates generate a microKanren language extended
+  with constraints. Our framework allows an order of magnitude
+  decrease in LOC over our previous language
+  implementations. Constraint microKanren serves as a teachable CLP
+  shell for constraint programming over binary trees as well as a
+  testbed and prototyping tool for constraint systems.
+</div>
+</body>
 </html>
