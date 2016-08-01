@@ -39,31 +39,32 @@ An invited talk will be given by <a href="http://is.uni-paderborn.de/index.php?i
   access to databases in Curry programs.
 </div>
 <div class="paper" id="3">
-  <span class="title"><b>A Simulation tool for tccp programs</b></span>
+  <span class="title"><b>A simulation tool for <i>tccp</i> programs</b></span>
   </br>
   <span class="authors"><span>
-      <a href="http://www.morse.uma.es/user/18">Maria Del Mar Gallardo</a>, <a href="http://morse.uma.es/user/7">Leticia Lavado</a> and <a href="http://www.morse.uma.es/user/20">Laura Panizo</a></span>
+      <a href="http://www.morse.uma.es/user/18">María-del-Mar Gallardo</a>, <a href="http://morse.uma.es/user/7">Leticia Lavado</a> and <a href="http://www.morse.uma.es/user/20">Laura Panizo</a></span>
   </span>
 </div>
 <div class="abstract">
   <b>Abstract:</b></br>
-  The Timed Concurrent Constraint Language tccp is a declarative
-  synchronous concurrent language, particularly suitable for modelling
-  reactive systems. In tccp, agents communicate and synchronise
-  through a global constraint store. It supports a notion of discrete
-  time that allows all non-blocked agents to proceed with their
-  execution simultaneously.</br>
-  In this paper, we present an abstract machine-based architecture for
-  the simulation of tccp programs. The abstract machine has three main
-  components. First, the instructions and memory model needed to
-  represent the active agents and the state of the store during the
+  The Timed Concurrent Constraint Language <i>tccp</i> is a
+  declarative synchronous concurrent language, particularly suitable
+  for modelling reactive systems. In <i>tccp</i>, agents communicate
+  and synchronise through a global constraint store. It supports a
+  notion of discrete time that allows all non-blocked agents to
+  proceed with their execution simultaneously.</br>
+  In this paper, we present a modular architecture for the simulation
+  of <i>tccp</i> programs. The tool comprises three main
+  components. First, a set of basic abstract instructions able to
+  model the <i>tccp</i> agent behaviour, the memory model needed to
+  manage the active agents and the state of the store during the
   execution. Second, the agent interpreter that executes the
   instructions of the current agent iteratively and calculates the new
   agents to be executed at the next time instant. Finally, the
   constraint solver components which are the modules that deal with
-  the constraints.</br>
+  constraints.</br>
   In this paper, we describe the implementation of these components
-  and present examples of real systems modelled in tccp.
+  and present an example of a real system modelled in <i>tccp</i>.
 </div>
 <div class="paper" id="4">
   <span class="title"><b>A Practical Study of Control in Objected-Oriented--Functional--Logic Programming with Paisley</b></span>
@@ -101,14 +102,14 @@ An invited talk will be given by <a href="http://is.uni-paderborn.de/index.php?i
 </div>
 <div class="abstract">
   <b>Abstract:</b></br>
-  Qualitative conditionals of the form "if A, then usually B" are a
+  Qualitative conditionals of the form "if A then usually B" are a
   powerful means in knowledge representation, establishing a plausible
   relationship between A and B. When reasoning based on conditional
   knowledge consisting of a set of conditionals, a rich structure
   going beyond classical logic is required, e.g. ranking functions
   that assign a degree of implausibility to each possible
   world. System Z is a popular approach, using a unique partitioning
-  of the knowledge base to generate the pareto-minimal ranking
+  of the knowledge base to generate the Pareto-minimal ranking
   function. This ranking function is used to answer questions
   plausibly based on the conditionals in the knowledge base. In this
   paper, we describe a Haskell implementation of system Z. To keep the
@@ -218,7 +219,7 @@ An invited talk will be given by <a href="http://is.uni-paderborn.de/index.php?i
   smaller tasks and computing them en bloc within one parallel
   process. In the case of sorting networks this could be done by
   computing bigger parts of the networks with one process. The
-  agglomeration law in this paper pursues a different strategy: the
+  agglomeration law in this paper pursues a different strategy: The
   input data is grouped and the algorithm is generalized to work on
   the agglomerated input while the original structure of the algorithm
   remains. This will result in a new access opportunity to sorting
@@ -230,7 +231,8 @@ An invited talk will be given by <a href="http://is.uni-paderborn.de/index.php?i
   ease. The expressiveness of functional programming languages helps
   us to apply this law to systematically constructed sorting networks
   leading to efficient and easily adaptable sorting algorithms. An
-  application example is given, showing the effectiveness of this law.
+  application example is given, using the Eden programming language to
+  show the effectiveness of this law.
 </div>
 <div class="paper" id="12">
   <span class="title"><b>A Framework for Extending microKanren with Constraints</b></span>
