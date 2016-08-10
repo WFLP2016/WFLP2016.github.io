@@ -22,21 +22,21 @@ An invited talk will be given by <a href="http://is.uni-paderborn.de/index.php?i
   <b>Abstract:</b></br>
   We present an extension of the declarative programming language
   Curry to support the access to data stored in relational databases
-  via SQL. Since Curry is statically typed, our emphasis on this
-  SQL-integration is on type safety, i.e., our extension respects the
-  type system of Curry so that run-time errors due to ill-typed data
-  are avoided. This is obtained by preprocessing SQL queries at
-  compile time and translating them into type-safe database access
+  via SQL. Since Curry is statically typed, our emphasis on this SQL
+  integration is on type safety. Our extension respects the type
+  system of Curry so that run-time errors due to ill-typed data are
+  avoided. This is obtained by preprocessing SQL statements at compile
+  time and translating them into type-safe database access
   operations. As a consequence, the type checker of the Curry system
-  can spot type errors in SQL queries at compile time. To generate
+  can spot type errors in SQL statements at compile time. To generate
   appropriately typed access operations, the preprocessor uses an
   entity-relationship (ER) model describing the structure of the
-  relational data. In addition to standard SQL, the SQL queries
-  occurring in a Curry program can include program expressions and
-  also relationships specified in the ER model. The latter feature is
-  useful to avoid the error-prone use of foreign keys in SQL queries.
-  As a result, our SQL integration supports a high-level and type-safe
-  access to databases in Curry programs.
+  relational data. In addition to standard SQL, SQL statements
+  embedded in Curry can include program expressions and also
+  relationships specified in the ER model. The latter feature is
+  useful to avoid the error-prone use of foreign keys. As a result,
+  our SQL integration supports a high-level and type-safe access to
+  databases in Curry programs.
 </div>
 <div class="paper" id="3">
   <span class="title"><b>A simulation tool for <i>tccp</i> programs</b></span>
@@ -155,20 +155,19 @@ An invited talk will be given by <a href="http://is.uni-paderborn.de/index.php?i
 </div>
 <div class="abstract">
   <b>Abstract:</b></br>
-  We investigate proving properties of Curry programs using the Agda
-  language and compiler. First, we address the functional correctness
-  of Curry functions that, apart from some syntactic and semantic
-  differences, are in the intersection of the two languages. Second,
-  we model in Agda Curry non-deterministic functions with two distinct
-  and competitive approaches that somewhat make the function
-  deterministic. The first approach eliminates non-determinism by
-  considering the set of all non-deterministic values produced by an
-  application. The second approach encodes in an application every
-  non-deterministic choice that the application could execute. We
-  consider our initial experiment a success. Although proving
-  properties of programs is a notoriously difficult task, the
-  functional logic paradigm does not seem to add any significant layer
-  of difficulty or complexity to the task.
+  We investigate proving properties of Curry programs using
+  Agda. First, we address the functional correctness of Curry
+  functions that, apart from some syntactic and semantic differences,
+  are in the intersection of the two languages. Second, we use Agda to
+  model non-deterministic functions with two distinct and competitive
+  approaches incorporating the non-determinism. The first approach
+  eliminates non-determinism by considering the set of all
+  non-deterministic values produced by an application. The second
+  approach encodes every non-deterministic choice that the application
+  could perform. We consider our initial experiment a
+  success. Although proving properties of programs is a notoriously
+  difficult task, the functional logic paradigm does not seem to add
+  any significant layer of difficulty or complexity to the task.
 </div>
 <!--
 <div class="paper" id="10">
