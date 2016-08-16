@@ -238,24 +238,24 @@ An invited talk will be given by <a href="http://is.uni-paderborn.de/index.php?i
   show the effectiveness of this law.
 </div>
 <div class="paper" id="12">
-  <span class="title"><b>A Framework for Extending microKanren with Constraints</b></span>
+  <span class="title"><b><a href="pre-proceedings/wflp2016_pre-proceedings_paper_12.pdf">A Framework for Extending microKanren with Constraints</a></b></span>
   </br>
   <span class="authors">
-    <span><a href="http://hemann.pl">Jason Hemann</a> and <a href="https://www.cs.indiana.edu/~dfried/">Daniel Friedman</a></span>
+    <span><a href="http://hemann.pl">Jason Hemann</a> and <a href="https://www.cs.indiana.edu/~dfried/">Daniel P. Friedman</a></span>
   </span>
 </div>
 <div class="abstract">
   <b>Abstract:</b></br>
-  We describe an extensible constraints framework in microKanren, a
-  logic EDSL hosted in Racket and more than 25 other languages. Here
-  we rely on an untyped, functional host language's macro system to
-  embed our constraint architecture, and constraint specifications
-  expressed as predicates generate a microKanren language extended
-  with constraints. Our framework allows an order of magnitude
-  decrease in LOC over our previous language
-  implementations. Constraint microKanren serves as a teachable CLP
-  shell for constraint programming over binary trees as well as a
-  testbed and prototyping tool for constraint systems.
+  We present a framework for building CLP languages with symbolic
+  constraints based on microKanren, a domain-specific logic language
+  shallowly embedded in Racket. A language designer provides the names
+  and violation conditions of atomic constraints. We rely on Racket's
+  macro system to generate a black-box constraint solver and other
+  components of the microKanren embedding. The framework itself and
+  the implementation of common Kanren constraints amounts to just over
+  100 lines of code. Our framework is both a teachable implementation
+  for constraint logic programming as well as a test-bed and
+  prototyping tool for constraint systems.
 </div>
 </body>
 </html>
